@@ -10,7 +10,7 @@ def rule(x):
 
 
 MAX = 0
-x = list(itertools.permutations(range(1, 10), 9 ) )
+x = list(itertools.permutations(range(1, 10), 9))
 for each in x:
     number = ''.join(list(map(str, each)))
     for j in range(1, 8):
